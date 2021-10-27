@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/moodboard-generator/static/css/main.cf918d7d.chunk.css",
+    "main.js": "/moodboard-generator/static/js/main.be660bf2.chunk.js",
+    "main.js.map": "/moodboard-generator/static/js/main.be660bf2.chunk.js.map",
+    "runtime-main.js": "/moodboard-generator/static/js/runtime-main.53bfc59d.js",
+    "runtime-main.js.map": "/moodboard-generator/static/js/runtime-main.53bfc59d.js.map",
+    "static/js/2.dafd53b3.chunk.js": "/moodboard-generator/static/js/2.dafd53b3.chunk.js",
+    "static/js/2.dafd53b3.chunk.js.map": "/moodboard-generator/static/js/2.dafd53b3.chunk.js.map",
+    "index.html": "/moodboard-generator/index.html",
+    "static/css/main.cf918d7d.chunk.css.map": "/moodboard-generator/static/css/main.cf918d7d.chunk.css.map",
+    "static/js/2.dafd53b3.chunk.js.LICENSE.txt": "/moodboard-generator/static/js/2.dafd53b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53bfc59d.js",
+    "static/js/2.dafd53b3.chunk.js",
+    "static/css/main.cf918d7d.chunk.css",
+    "static/js/main.be660bf2.chunk.js"
+  ]
+}
