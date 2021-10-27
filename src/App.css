@@ -18,6 +18,8 @@ h1 {
   color: #2a2b2a;
   padding: 8px 8px 8px 8px;
   border-radius: 10px;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
 }
 
 .button {
@@ -27,7 +29,7 @@ h1 {
 }
 
 button {
-  font-size: 22px;
+  font-size: 21px;
   height: 32px;
   width: 300px;
   background-color: #ffffff;
@@ -37,15 +39,17 @@ button {
   border-style: none;
   border-radius: 10px;
   padding: 1px 5px 5px 5px;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
 }
 
 button:hover {
-  background-color: #a38d81;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #2a2b2a;
   font-size: 23px;
   height: 35px;
   width: 307px;
   box-shadow: #f8b692 2px 4px 5px;
   padding: 1px 5px 6px 5px;
-  border-style: outset;
+  border-style: none;
 }
