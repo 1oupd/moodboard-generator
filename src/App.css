@@ -15,8 +15,9 @@
 
 h1 {
   font-size: 40px;
-  color: #857785;
-  text-shadow: #f8b692 0px 3px 3px;
+  color: #2a2b2a;
+  padding: 8px 8px 8px 8px;
+  border-radius: 10px;
 }
 
 .button {
@@ -26,19 +27,25 @@ h1 {
 }
 
 button {
-  font-size: 24px;
-  height: 35px;
+  font-size: 22px;
+  height: 32px;
   width: 300px;
-  background-color: #9b8da0;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #2a2b2a;
   font-family: "Antic Slab", Arial, Helvetica, sans-serif;
-  box-shadow: #f8b692 0px 3px 3px;
+  box-shadow: #f8b692 0px 2px 3px;
+  border-style: none;
+  border-radius: 10px;
+  padding: 1px 5px 5px 5px;
 }
 
 button:hover {
-  background-color: #a888c4;
-  font-size: 26px;
-  height: 40px;
-  width: 315px;
-  box-shadow: #ffd5b9 2px 6px 5px;
+  background-color: #a38d81;
+  color: #ffffff;
+  font-size: 23px;
+  height: 35px;
+  width: 307px;
+  box-shadow: #f8b692 2px 4px 5px;
+  padding: 1px 5px 6px 5px;
+  border-style: outset;
 }
