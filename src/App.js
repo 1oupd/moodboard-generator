@@ -3,6 +3,7 @@ import Header from "./components/Header.js";
 import axios from "axios";
 import { useState } from "react";
 import Images from "./components/Images";
+import "./App.css";
 
 const App = () => {
   const [images, setImages] = useState([]);
@@ -19,12 +20,12 @@ const App = () => {
     <div className="container">
       <div className="header">
         <Header />
+        <div className="button">
+          <button onClick={fetchAPI}>click here for inspiration</button>
+        </div>
       </div>
       <div className="photos">
         {images.length > 0 && <Images images={images} />}
-      </div>
-      <div>
-        <button onClick={fetchAPI}>Click me</button>
       </div>
     </div>
   );

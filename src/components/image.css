@@ -1,10 +1,13 @@
 .imgcont {
   width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: row;
+  border-radius: 10px;
 }
 
 .photos {
+  background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -18,13 +21,17 @@ img {
   height: 250px;
   object-fit: cover;
   overflow: hidden;
-  margin: 1% 2% 1% 2%;
+  margin: 3% 2% 2% 2%;
   padding: 1% 2% 1% 2%;
   border-radius: 10px;
+  box-shadow: #f8b692 0px 3px 3px;
+  background-color: #ffffff;
 }
 
 img:hover {
   opacity: 1;
   width: 300px;
   height: 300px;
+  border-radius: 20px;
+  box-shadow: #ffd5b9 2px 6px 5px;
 }
